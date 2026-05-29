@@ -1,4 +1,4 @@
-<h1 align="center"> Hello World,</h1>
+<h1 align="center"> Bonjour, Kisama </h1>
 
 <p align="center">
   <img src="hero.png" width="800" alt="Fikri's Pixel World">
