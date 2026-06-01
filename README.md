@@ -1,7 +1,7 @@
 <h1 align="center"> Bonjour, Kisama </h1>
 
 <p align="center">
-  <img src="hero.png" width="800" alt="Fikri's Pixel World">
+  <img src="ChatGPT Image 1 Jun 2026, 05.22.31.png" width="800" alt="Fikri's Pixel World">
 </p>
 
 <p align="center">
