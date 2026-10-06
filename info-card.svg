@@ -1,0 +1,92 @@
+<svg width="490" height="315" viewBox="0 0 490 315" xmlns="http://www.w3.org/2000/svg">
+<style>
+
+        .terminal-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 8; ry: 8; }
+        .title-bar { fill: #161b22; }
+        .title-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; fill: #8b949e; font-weight: 500; }
+        .btn-red { fill: #ff5f56; }
+        .btn-yellow { fill: #ffbd2e; }
+        .btn-green { fill: #27c93f; }
+        .key { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; fill: #58a6ff; font-weight: 600; }
+        .val { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; fill: #c9d1d9; }
+        .hl { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; font-weight: 700; fill: #58a6ff; }
+        .sep { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; fill: #30363d; }
+        
+        .line {
+            opacity: 0;
+            animation: fadeInSlide 0.45s ease-out forwards;
+        }
+        @keyframes fadeInSlide {
+            from {
+                opacity: 0;
+                transform: translateY(6px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    
+    
+</style>
+<rect width="490" height="315" class="terminal-bg" />
+<path d="M0 8a8 8 0 0 1 8-8h474a8 8 0 0 1 8 8v24H0z" class="title-bar" />
+<circle cx="18" cy="16" r="5" class="btn-red" />
+<circle cx="34" cy="16" r="5" class="btn-yellow" />
+<circle cx="50" cy="16" r="5" class="btn-green" />
+<text x="245" y="20" text-anchor="middle" class="title-text">fikri@archlinux: ~</text>
+<g class="line" style="animation-delay: 0.00s">
+  <text x="22" y="52" class="hl">isagi@archlinux</text>
+  <text x="22" y="64" class="sep">------------------</text>
+</g>
+<g class="line" style="animation-delay: 0.12s">
+  <text x="22" y="90" class="key">OS:</text>
+  <text x="100" y="90" class="val">Arch Linux x86_64</text>
+</g>
+<g class="line" style="animation-delay: 0.18s">
+  <text x="22" y="109" class="key">Host:</text>
+  <text x="100" y="109" class="val">Realme & ThinkPad Workspace</text>
+</g>
+<g class="line" style="animation-delay: 0.24s">
+  <text x="22" y="128" class="key">Kernel:</text>
+  <text x="100" y="128" class="val">7.2.6-arch2-1</text>
+</g>
+<g class="line" style="animation-delay: 0.30s">
+  <text x="22" y="147" class="key">Uptime:</text>
+  <text x="100" y="147" class="val">Semester 4 (CS Undergrad)</text>
+</g>
+<g class="line" style="animation-delay: 0.36s">
+  <text x="22" y="166" class="key">Shell:</text>
+  <text x="100" y="166" class="val">zsh / bash</text>
+</g>
+<g class="line" style="animation-delay: 0.42s">
+  <text x="22" y="185" class="key">Role:</text>
+  <text x="100" y="185" class="val">Frontend Dev & Automation Enthusiast</text>
+</g>
+<g class="line" style="animation-delay: 0.48s">
+  <text x="22" y="204" class="key">Stack:</text>
+  <text x="100" y="204" class="val">React, Next.js, Flutter, Python, TS</text>
+</g>
+<g class="line" style="animation-delay: 0.54s">
+  <text x="22" y="223" class="key">Editor:</text>
+  <text x="100" y="223" class="val">Neovim / VS Code</text>
+</g>
+<g class="line" style="animation-delay: 0.60s">
+  <text x="22" y="242" class="key">Focus:</text>
+  <text x="100" y="242" class="val">Clean Minimalist UI & System Craft</text>
+</g>
+<g class="line" style="animation-delay: 0.66s">
+  <text x="22" y="261" class="key">Status:</text>
+  <text x="100" y="261" class="val">Building & shipping side projects</text>
+</g>
+<g class="line" style="animation-delay: 0.72s">
+  <rect x="22" y="286" width="12" height="12" rx="2" fill="#484f58" />
+  <rect x="40" y="286" width="12" height="12" rx="2" fill="#ff7b72" />
+  <rect x="58" y="286" width="12" height="12" rx="2" fill="#7ee787" />
+  <rect x="76" y="286" width="12" height="12" rx="2" fill="#f2cc60" />
+  <rect x="94" y="286" width="12" height="12" rx="2" fill="#79c0ff" />
+  <rect x="112" y="286" width="12" height="12" rx="2" fill="#d2a8ff" />
+  <rect x="130" y="286" width="12" height="12" rx="2" fill="#56d4dd" />
+  <rect x="148" y="286" width="12" height="12" rx="2" fill="#f0f6fc" />
+</g>
+</svg>
