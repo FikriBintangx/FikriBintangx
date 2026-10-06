@@ -381,7 +381,7 @@
 <rect class="day" x="805" y="120" width="11" height="11" fill="#161b22" style="animation-delay: 0.855s"/>
 <rect class="day" x="820" y="30" width="11" height="11" fill="#26a641" style="animation-delay: 0.780s"/>
 <rect class="day" x="820" y="45" width="11" height="11" fill="#161b22" style="animation-delay: 0.795s"/>
-<rect class="day" x="820" y="60" width="11" height="11" fill="#161b22" style="animation-delay: 0.810s"/>
+<rect class="day" x="820" y="60" width="11" height="11" fill="#0e4429" style="animation-delay: 0.810s"/>
 <text x="730" y="159" class="text">Less</text>
 <rect x="760" y="150" width="11" height="11" rx="2" ry="2" fill="#161b22"/>
 <rect x="775" y="150" width="11" height="11" rx="2" ry="2" fill="#0e4429"/>
@@ -389,5 +389,5 @@
 <rect x="805" y="150" width="11" height="11" rx="2" ry="2" fill="#26a641"/>
 <rect x="820" y="150" width="11" height="11" rx="2" ry="2" fill="#39d353"/>
 <text x="840" y="159" class="text">More</text>
-<text x="40" y="159" class="text"><tspan class="text-bold">460</tspan> contributions in the last year</text>
+<text x="40" y="159" class="text"><tspan class="text-bold">461</tspan> contributions in the last year</text>
 </svg>
