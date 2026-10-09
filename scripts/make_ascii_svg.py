@@ -43,10 +43,6 @@ def generate_svg(rows, output_path="fikri-ascii.svg"):
     svg_w = int(num_cols * char_w + 20)
     svg_h = int(num_rows * char_h + 30)
     
-    # Animation settings
-    row_dur = 0.08
-    row_delay = 0.03
-    
     svg = []
     svg.append(f'<svg width="{svg_w}" height="{svg_h}" viewBox="0 0 {svg_w} {svg_h}" xmlns="http://www.w3.org/2000/svg">')
     svg.append('<style>')
@@ -56,37 +52,21 @@ def generate_svg(rows, output_path="fikri-ascii.svg"):
             font-size: 8px;
             fill: #c9d1d9;
             white-space: pre;
-        }
-        .cursor {
-            fill: #58a6ff;
+            opacity: 1;
         }
     ''')
     svg.append('</style>')
     
-    svg.append('<defs>')
-    for i in range(num_rows):
-        start_t = i * row_delay
-        svg.append(f'  <clipPath id="clip-{i}">')
-        svg.append(f'    <rect x="0" y="{int(i * char_h)}" width="{svg_w}" height="{int(char_h + 2)}">')
-        svg.append(f'      <animate attributeName="width" from="0" to="{svg_w}" begin="{start_t:.3f}s" dur="{row_dur}s" fill="freeze" calcMode="linear"/>')
-        svg.append('    </rect>')
-        svg.append('  </clipPath>')
-    svg.append('</defs>')
+    # Background container matching info-card
+    svg.append(f'<rect width="{svg_w}" height="{svg_h}" rx="8" ry="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />')
     
-    # Render rows with clip-paths & cursors
+    # Render rows without clip-paths (100% static & reliable)
     for i, row in enumerate(rows):
         y_pos = int((i + 1) * char_h + 10)
-        start_t = i * row_delay
         escaped_row = html.escape(row)
         
-        # Cursor element
-        svg.append(f'<rect class="cursor" x="0" y="{int(y_pos - char_h + 1)}" width="5" height="{int(char_h)}" opacity="0">')
-        svg.append(f'  <animate attributeName="x" from="0" to="{svg_w}" begin="{start_t:.3f}s" dur="{row_dur}s" fill="freeze"/>')
-        svg.append(f'  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="{start_t:.3f}s" dur="{row_dur}s" fill="freeze"/>')
-        svg.append('</rect>')
-        
         # Text row
-        svg.append(f'<text x="10" y="{y_pos}" class="ascii-text" clip-path="url(#clip-{i})">{escaped_row}</text>')
+        svg.append(f'<text x="10" y="{y_pos}" class="ascii-text">{escaped_row}</text>')
         
     svg.append('</svg>')
     

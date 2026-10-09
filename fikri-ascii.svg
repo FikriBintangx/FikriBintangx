@@ -6,392 +6,47 @@
             font-size: 8px;
             fill: #c9d1d9;
             white-space: pre;
-        }
-        .cursor {
-            fill: #58a6ff;
+            opacity: 1;
         }
     
 </style>
-<defs>
-  <clipPath id="clip-0">
-    <rect x="0" y="0" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.000s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-1">
-    <rect x="0" y="7" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.030s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-2">
-    <rect x="0" y="15" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.060s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-3">
-    <rect x="0" y="22" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.090s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-4">
-    <rect x="0" y="30" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.120s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-5">
-    <rect x="0" y="37" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.150s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-6">
-    <rect x="0" y="45" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.180s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-7">
-    <rect x="0" y="52" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.210s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-8">
-    <rect x="0" y="60" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.240s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-9">
-    <rect x="0" y="67" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.270s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-10">
-    <rect x="0" y="75" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.300s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-11">
-    <rect x="0" y="82" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.330s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-12">
-    <rect x="0" y="90" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.360s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-13">
-    <rect x="0" y="97" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.390s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-14">
-    <rect x="0" y="105" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.420s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-15">
-    <rect x="0" y="112" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.450s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-16">
-    <rect x="0" y="120" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.480s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-17">
-    <rect x="0" y="127" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.510s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-18">
-    <rect x="0" y="135" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.540s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-19">
-    <rect x="0" y="142" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.570s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-20">
-    <rect x="0" y="150" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.600s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-21">
-    <rect x="0" y="157" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.630s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-22">
-    <rect x="0" y="165" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.660s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-23">
-    <rect x="0" y="172" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.690s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-24">
-    <rect x="0" y="180" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.720s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-25">
-    <rect x="0" y="187" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.750s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-26">
-    <rect x="0" y="195" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.780s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-27">
-    <rect x="0" y="202" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.810s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-28">
-    <rect x="0" y="210" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.840s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-29">
-    <rect x="0" y="217" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.870s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-30">
-    <rect x="0" y="225" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.900s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-31">
-    <rect x="0" y="232" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.930s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-32">
-    <rect x="0" y="240" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.960s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-33">
-    <rect x="0" y="247" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="0.990s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-34">
-    <rect x="0" y="255" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="1.020s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-35">
-    <rect x="0" y="262" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="1.050s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-36">
-    <rect x="0" y="270" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="1.080s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <clipPath id="clip-37">
-    <rect x="0" y="277" width="356" height="9">
-      <animate attributeName="width" from="0" to="356" begin="1.110s" dur="0.08s" fill="freeze" calcMode="linear"/>
-    </rect>
-  </clipPath>
-</defs>
-<rect class="cursor" x="0" y="10" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.000s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.000s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="17" class="ascii-text" clip-path="url(#clip-0)">                                                                      </text>
-<rect class="cursor" x="0" y="18" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.030s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.030s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="25" class="ascii-text" clip-path="url(#clip-1)">                                                                      </text>
-<rect class="cursor" x="0" y="25" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.060s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.060s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="32" class="ascii-text" clip-path="url(#clip-2)">                                                                      </text>
-<rect class="cursor" x="0" y="33" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.090s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.090s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="40" class="ascii-text" clip-path="url(#clip-3)">                                                                      </text>
-<rect class="cursor" x="0" y="40" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.120s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.120s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="47" class="ascii-text" clip-path="url(#clip-4)">                                                                      </text>
-<rect class="cursor" x="0" y="48" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.150s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.150s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="55" class="ascii-text" clip-path="url(#clip-5)">                                                                      </text>
-<rect class="cursor" x="0" y="55" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.180s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.180s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="62" class="ascii-text" clip-path="url(#clip-6)">                                                                      </text>
-<rect class="cursor" x="0" y="63" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.210s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.210s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="70" class="ascii-text" clip-path="url(#clip-7)">                                                                      </text>
-<rect class="cursor" x="0" y="70" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.240s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.240s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="77" class="ascii-text" clip-path="url(#clip-8)">                                                                      </text>
-<rect class="cursor" x="0" y="78" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.270s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.270s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="85" class="ascii-text" clip-path="url(#clip-9)">                              .-++=:---:`                             </text>
-<rect class="cursor" x="0" y="85" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.300s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.300s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="92" class="ascii-text" clip-path="url(#clip-10)">                             -css##cssss##-                           </text>
-<rect class="cursor" x="0" y="93" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.330s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.330s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="100" class="ascii-text" clip-path="url(#clip-11)">                            -%scc#s+ccs##%%:                          </text>
-<rect class="cursor" x="0" y="100" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.360s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.360s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="107" class="ascii-text" clip-path="url(#clip-12)">                            s%#%#ss*ccs###%-                          </text>
-<rect class="cursor" x="0" y="108" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.390s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.390s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="115" class="ascii-text" clip-path="url(#clip-13)">                            -%%%s*===cs##%*                           </text>
-<rect class="cursor" x="0" y="115" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.420s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.420s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="122" class="ascii-text" clip-path="url(#clip-14)">                             css*==--+cscsc:                          </text>
-<rect class="cursor" x="0" y="123" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.450s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.450s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="130" class="ascii-text" clip-path="url(#clip-15)">                            .**s*c####cc+*#-                          </text>
-<rect class="cursor" x="0" y="130" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.480s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.480s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="137" class="ascii-text" clip-path="url(#clip-16)">                             -=+=*@@@%-=*c+                           </text>
-<rect class="cursor" x="0" y="138" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.510s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.510s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="145" class="ascii-text" clip-path="url(#clip-17)">                              :++-=*c%-:s*                            </text>
-<rect class="cursor" x="0" y="145" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.540s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.540s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="152" class="ascii-text" clip-path="url(#clip-18)">                              :=+=``-*:`sc                            </text>
-<rect class="cursor" x="0" y="153" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.570s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.570s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="160" class="ascii-text" clip-path="url(#clip-19)">                         .`---*c**csc=..c%=`.                         </text>
-<rect class="cursor" x="0" y="160" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.600s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.600s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="167" class="ascii-text" clip-path="url(#clip-20)">                     :+++*sc::===:-=-`::+%%%#c-.                      </text>
-<rect class="cursor" x="0" y="168" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.630s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.630s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="175" class="ascii-text" clip-path="url(#clip-21)">                   `c#*++**``:+s#sc+=--=+#%%%#ssc                     </text>
-<rect class="cursor" x="0" y="175" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.660s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.660s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="182" class="ascii-text" clip-path="url(#clip-22)">                  :##s***-``-=+cccsss*:-=c%##cs#c                     </text>
-<rect class="cursor" x="0" y="183" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.690s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.690s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="190" class="ascii-text" clip-path="url(#clip-23)">                  s####s``-==*cccccsc*+=::ssscss*                     </text>
-<rect class="cursor" x="0" y="190" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.720s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.720s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="197" class="ascii-text" clip-path="url(#clip-24)">                 .s#s=-#c**c***ccccscccc**=:css#c                     </text>
-<rect class="cursor" x="0" y="198" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.750s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.750s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="205" class="ascii-text" clip-path="url(#clip-25)">                 `s=``:*###sc**cccscccs#c*-::*#%+                     </text>
-<rect class="cursor" x="0" y="205" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.780s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.780s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="212" class="ascii-text" clip-path="url(#clip-26)">                 `-:--++*cc****cccsccccc*++=-:+#+                     </text>
-<rect class="cursor" x="0" y="213" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.810s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.810s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="220" class="ascii-text" clip-path="url(#clip-27)">                 :+==++*#s*cssss*ccccccsc*++==-+-                     </text>
-<rect class="cursor" x="0" y="220" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.840s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.840s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="227" class="ascii-text" clip-path="url(#clip-28)">                 -*+*+*#%sssc***cccccccs#s**++++`                     </text>
-<rect class="cursor" x="0" y="228" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.870s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.870s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="235" class="ascii-text" clip-path="url(#clip-29)">                 +s**c#%#%##scc*cc****c#%%s****c:                     </text>
-<rect class="cursor" x="0" y="235" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.900s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.900s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="242" class="ascii-text" clip-path="url(#clip-30)">                 *%###%#%%%%%%####ccsss%%%%scc*c`                     </text>
-<rect class="cursor" x="0" y="243" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.930s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.930s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="250" class="ascii-text" clip-path="url(#clip-31)">                 c%#%%#%%%%%%#%%%%%%%%%#%%%#sccc`                     </text>
-<rect class="cursor" x="0" y="250" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.960s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.960s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="257" class="ascii-text" clip-path="url(#clip-32)">                 s%##%%%%%%%#%%%%%######%%%%%#ss.                     </text>
-<rect class="cursor" x="0" y="258" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="0.990s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="0.990s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="265" class="ascii-text" clip-path="url(#clip-33)">                .s%##%%%%%%%%###%#######%%%%%%%#.                     </text>
-<rect class="cursor" x="0" y="265" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="1.020s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="1.020s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="272" class="ascii-text" clip-path="url(#clip-34)">                .###%%%###%%%%###########%%%%%%#                      </text>
-<rect class="cursor" x="0" y="273" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="1.050s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="1.050s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="280" class="ascii-text" clip-path="url(#clip-35)">                `###%%%####%%%###########%#%%%%s                      </text>
-<rect class="cursor" x="0" y="280" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="1.080s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="1.080s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="287" class="ascii-text" clip-path="url(#clip-36)">                :%##%%#####%################%#%c                      </text>
-<rect class="cursor" x="0" y="288" width="5" height="7" opacity="0">
-  <animate attributeName="x" from="0" to="356" begin="1.110s" dur="0.08s" fill="freeze"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="1.110s" dur="0.08s" fill="freeze"/>
-</rect>
-<text x="10" y="295" class="ascii-text" clip-path="url(#clip-37)">                :%##%%###%%####################*                      </text>
+<rect width="356" height="315" rx="8" ry="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+<text x="10" y="17" class="ascii-text">                                                                      </text>
+<text x="10" y="25" class="ascii-text">                                                                      </text>
+<text x="10" y="32" class="ascii-text">                                                                      </text>
+<text x="10" y="40" class="ascii-text">                                                                      </text>
+<text x="10" y="47" class="ascii-text">                                                                      </text>
+<text x="10" y="55" class="ascii-text">                                                                      </text>
+<text x="10" y="62" class="ascii-text">                                                                      </text>
+<text x="10" y="70" class="ascii-text">                                                                      </text>
+<text x="10" y="77" class="ascii-text">                                                                      </text>
+<text x="10" y="85" class="ascii-text">                              .-++=:---:`                             </text>
+<text x="10" y="92" class="ascii-text">                             -css##cssss##-                           </text>
+<text x="10" y="100" class="ascii-text">                            -%scc#s+ccs##%%:                          </text>
+<text x="10" y="107" class="ascii-text">                            s%#%#ss*ccs###%-                          </text>
+<text x="10" y="115" class="ascii-text">                            -%%%s*===cs##%*                           </text>
+<text x="10" y="122" class="ascii-text">                             css*==--+cscsc:                          </text>
+<text x="10" y="130" class="ascii-text">                            .**s*c####cc+*#-                          </text>
+<text x="10" y="137" class="ascii-text">                             -=+=*@@@%-=*c+                           </text>
+<text x="10" y="145" class="ascii-text">                              :++-=*c%-:s*                            </text>
+<text x="10" y="152" class="ascii-text">                              :=+=``-*:`sc                            </text>
+<text x="10" y="160" class="ascii-text">                         .`---*c**csc=..c%=`.                         </text>
+<text x="10" y="167" class="ascii-text">                     :+++*sc::===:-=-`::+%%%#c-.                      </text>
+<text x="10" y="175" class="ascii-text">                   `c#*++**``:+s#sc+=--=+#%%%#ssc                     </text>
+<text x="10" y="182" class="ascii-text">                  :##s***-``-=+cccsss*:-=c%##cs#c                     </text>
+<text x="10" y="190" class="ascii-text">                  s####s``-==*cccccsc*+=::ssscss*                     </text>
+<text x="10" y="197" class="ascii-text">                 .s#s=-#c**c***ccccscccc**=:css#c                     </text>
+<text x="10" y="205" class="ascii-text">                 `s=``:*###sc**cccscccs#c*-::*#%+                     </text>
+<text x="10" y="212" class="ascii-text">                 `-:--++*cc****cccsccccc*++=-:+#+                     </text>
+<text x="10" y="220" class="ascii-text">                 :+==++*#s*cssss*ccccccsc*++==-+-                     </text>
+<text x="10" y="227" class="ascii-text">                 -*+*+*#%sssc***cccccccs#s**++++`                     </text>
+<text x="10" y="235" class="ascii-text">                 +s**c#%#%##scc*cc****c#%%s****c:                     </text>
+<text x="10" y="242" class="ascii-text">                 *%###%#%%%%%%####ccsss%%%%scc*c`                     </text>
+<text x="10" y="250" class="ascii-text">                 c%#%%#%%%%%%#%%%%%%%%%#%%%#sccc`                     </text>
+<text x="10" y="257" class="ascii-text">                 s%##%%%%%%%#%%%%%######%%%%%#ss.                     </text>
+<text x="10" y="265" class="ascii-text">                .s%##%%%%%%%%###%#######%%%%%%%#.                     </text>
+<text x="10" y="272" class="ascii-text">                .###%%%###%%%%###########%%%%%%#                      </text>
+<text x="10" y="280" class="ascii-text">                `###%%%####%%%###########%#%%%%s                      </text>
+<text x="10" y="287" class="ascii-text">                :%##%%#####%################%#%c                      </text>
+<text x="10" y="295" class="ascii-text">                :%##%%###%%####################*                      </text>
 </svg>
