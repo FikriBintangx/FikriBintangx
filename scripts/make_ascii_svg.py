@@ -67,7 +67,7 @@ def generate_svg(rows, output_path="fikri-ascii.svg"):
     for i in range(num_rows):
         start_t = i * row_delay
         svg.append(f'  <clipPath id="clip-{i}">')
-        svg.append(f'    <rect x="0" y="{int(i * char_h)}" width="0" height="{int(char_h + 2)}">')
+        svg.append(f'    <rect x="0" y="{int(i * char_h)}" width="{svg_w}" height="{int(char_h + 2)}">')
         svg.append(f'      <animate attributeName="width" from="0" to="{svg_w}" begin="{start_t:.3f}s" dur="{row_dur}s" fill="freeze" calcMode="linear"/>')
         svg.append('    </rect>')
         svg.append('  </clipPath>')

@@ -26,7 +26,7 @@ def main():
     # CSS Styles & Animations
     anim_css = "" if static else """
         .line {
-            opacity: 0;
+            opacity: 1;
             animation: fadeInSlide 0.45s ease-out forwards;
         }
         @keyframes fadeInSlide {

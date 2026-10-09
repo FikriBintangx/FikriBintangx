@@ -13,7 +13,7 @@
         .sep { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; fill: #30363d; }
         
         .line {
-            opacity: 0;
+            opacity: 1;
             animation: fadeInSlide 0.45s ease-out forwards;
         }
         @keyframes fadeInSlide {
