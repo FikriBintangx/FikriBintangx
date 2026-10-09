@@ -43,19 +43,23 @@ def prep_photo(input_path, output_path):
     clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
     enhanced = clahe.apply(gray)
     
-    # Auto-crop tightly around the subject to maximize ASCII size
+    # Auto-crop tightly around the subject bust (head + shoulders only)
     mask = enhanced < 245
     y_indices, x_indices = np.where(mask)
     if len(y_indices) > 0 and len(x_indices) > 0:
         ymin, ymax = y_indices.min(), y_indices.max()
         xmin, xmax = x_indices.min(), x_indices.max()
         
-        # Add 3% margin
-        pad_x = int((xmax - xmin) * 0.03)
-        pad_y = int((ymax - ymin) * 0.03)
+        # Take upper 58% of the subject height (bust/chest level)
+        subj_h = ymax - ymin
+        ymax_bust = ymin + int(subj_h * 0.58)
+        
+        # Add small margin
+        pad_x = int((xmax - xmin) * 0.05)
+        pad_y = int((ymax_bust - ymin) * 0.05)
         
         ymin = max(0, ymin - pad_y)
-        ymax = min(h, ymax + pad_y)
+        ymax = min(h, ymax_bust + pad_y)
         xmin = max(0, xmin - pad_x)
         xmax = min(w, xmax + pad_x)
         

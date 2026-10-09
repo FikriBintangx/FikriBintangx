@@ -1,0 +1,51 @@
+<svg width="365" height="307" viewBox="0 0 365 307" xmlns="http://www.w3.org/2000/svg">
+<style>
+
+        .ascii-text {
+            font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace;
+            font-size: 8px;
+            fill: #c9d1d9;
+            white-space: pre;
+            opacity: 1;
+        }
+    
+</style>
+<rect width="365" height="307" rx="8" ry="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+<text x="10" y="17" class="ascii-text">                                                                        </text>
+<text x="10" y="25" class="ascii-text">                                                                        </text>
+<text x="10" y="32" class="ascii-text">                                .:=****=`.`:-=---:`.                    </text>
+<text x="10" y="40" class="ascii-text">                              `-*ssss###scssscc***cs*=.                 </text>
+<text x="10" y="47" class="ascii-text">                             =c##sccs##ss+csscccsss##%#:                </text>
+<text x="10" y="55" class="ascii-text">                            =s#c*++cssss*+*cc*css##s####:               </text>
+<text x="10" y="62" class="ascii-text">                           -##s*cc*cs##s==cc*css#####%###:              </text>
+<text x="10" y="70" class="ascii-text">                          :s######s#####s*ssc+cs#####%%#%*              </text>
+<text x="10" y="77" class="ascii-text">                          =%%%#######sssc**cc*s#####%%%%#`              </text>
+<text x="10" y="85" class="ascii-text">                          :%%##%%%%#sc**++++*css#####%%%c               </text>
+<text x="10" y="92" class="ascii-text">                           =%%%%%%#sc*=++=++*csss###%%%#.               </text>
+<text x="10" y="100" class="ascii-text">                            =%#%%#sc*+===---=+*cc##ss#%-                </text>
+<text x="10" y="107" class="ascii-text">                            `sccscc*+=---::::=+c*cs**s#*c`              </text>
+<text x="10" y="115" class="ascii-text">                           .ss*css*++*+=++++=*###sc***sss+              </text>
+<text x="10" y="122" class="ascii-text">                            cc+c##s++##%%%%%%%c*sc****css:              </text>
+<text x="10" y="130" class="ascii-text">                            -*=+=*#+:s#%#%%%%%*:c+=++*ccc               </text>
+<text x="10" y="137" class="ascii-text">                            .+++`*%*:##%%%%%%%#--+++*ccc+               </text>
+<text x="10" y="145" class="ascii-text">                             `*+:*:.:c#%%%%%%%#`.=**cs=.                </text>
+<text x="10" y="152" class="ascii-text">                              .-:**-```-*sscc##:.:cccs`                 </text>
+<text x="10" y="160" class="ascii-text">                              `-=s%#c+-`.`:=+##``:*ssc.                 </text>
+<text x="10" y="167" class="ascii-text">                              :``````::`..::-#s..:=sss`                 </text>
+<text x="10" y="175" class="ascii-text">                             `:==++++*+===*=::=..`=ss%+                 </text>
+<text x="10" y="182" class="ascii-text">                        .`:---++c#ssccs####c+=:. .:s%%s`                </text>
+<text x="10" y="190" class="ascii-text">               .::::-=*csss*-+*css*+*+=******=-`..:*%#%%#c+-:.          </text>
+<text x="10" y="197" class="ascii-text">             `+c****cccccs=..`::``:````-+**-`..`:-:=#%%%#%@%%#c:        </text>
+<text x="10" y="205" class="ascii-text">           -*ss++*++++csc-.`.`-==*cc*=-::`::.`:-=+=-c%#%%%#%%#%%c+-:.   </text>
+<text x="10" y="212" class="ascii-text">          +#scc+++++++cs-.``:-*s#%%%####s+=:=-:--=++*%%%%%#%%sccss##+   </text>
+<text x="10" y="220" class="ascii-text">        :c#s#sc++*+++*c:.`:--::=*ccs##scsssss+::--=++#%%%%#%#cc#ssss=   </text>
+<text x="10" y="227" class="ascii-text">       :##ss#sc=**+*++`.``::--==+***cc*cscc***--::-++c%%%###scs#s#ss-   </text>
+<text x="10" y="235" class="ascii-text">      :s###sssc*scs*:.``::--=+*csssssccc#cccc*=----=--c%#ss#scc#s#ss-   </text>
+<text x="10" y="242" class="ascii-text">      *%ss##sss#%c`..:----==+*cccccssssccsc*c***++=:``:s#sssscc#s#cs:   </text>
+<text x="10" y="250" class="ascii-text">      *#ssss#%s##s-`-+++++++*cccccccccccssccc****+=:`:c#**csscc#ssc#:   </text>
+<text x="10" y="257" class="ascii-text">      csss##s=`-#%%c+==+***c****cc**ccccssccccc*++***cc+`:+sscs#ss#%`   </text>
+<text x="10" y="265" class="ascii-text">     .ssssc=`.``+%%%#ccc##ccc**cccccccccsscccccss##ssc=`:::+sss#s#%#.   </text>
+<text x="10" y="272" class="ascii-text">     `s#s=`.`:::-*s#%%%%#scc*****cccsscssccccccs%#sc*++--:::=c###%#c    </text>
+<text x="10" y="280" class="ascii-text">     :s+:``::::-+++*cs#sc********ccccss#cccccccccc****++=-::::*#%##c    </text>
+<text x="10" y="287" class="ascii-text">     :-`::-----+++***cc*********cccc**csccccccccccc***+++=--:::+###c    </text>
+</svg>
