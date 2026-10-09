@@ -8,8 +8,8 @@
 <h3><code>fikri@github ~ $ whoami</code></h3>
 <table>
   <tr>
-    <td valign="top"><img src="https://raw.githubusercontent.com/FikriBintangx/FikriBintangx/main/fikri-ascii.svg" width="370" alt="Fikri Bintang ASCII Portrait" /></td>
-    <td valign="top"><img src="https://raw.githubusercontent.com/FikriBintangx/FikriBintangx/main/info-card.svg" width="490" alt="Fikri Info Card" /></td>
+    <td valign="top"><img src="fikri-ascii.svg" width="370" alt="Fikri Bintang ASCII Portrait" /></td>
+    <td valign="top"><img src="info-card.svg" width="490" alt="Fikri Info Card" /></td>
   </tr>
 </table>
 

@@ -1,4 +1,5 @@
 import os
+import html
 
 def main():
     static = os.environ.get("STATIC", "0") == "1"
@@ -80,15 +81,15 @@ def main():
 
         if item[0] == "title":
             svg.append(f'<g class="line" {style_attr}>')
-            svg.append(f'  <text x="22" y="{y}" class="hl">{item[1]}</text>')
-            svg.append(f'  <text x="22" y="{y + 12}" class="sep">{item[2]}</text>')
+            svg.append(f'  <text x="22" y="{y}" class="hl">{html.escape(str(item[1]))}</text>')
+            svg.append(f'  <text x="22" y="{y + 12}" class="sep">{html.escape(str(item[2]))}</text>')
             svg.append('</g>')
             current_line += 1
         else:
             key, val = item
             svg.append(f'<g class="line" {style_attr}>')
-            svg.append(f'  <text x="22" y="{y}" class="key">{key}:</text>')
-            svg.append(f'  <text x="100" y="{y}" class="val">{val}</text>')
+            svg.append(f'  <text x="22" y="{y}" class="key">{html.escape(str(key))}:</text>')
+            svg.append(f'  <text x="100" y="{y}" class="val">{html.escape(str(val))}</text>')
             svg.append('</g>')
         current_line += 1
 

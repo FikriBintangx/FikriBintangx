@@ -45,7 +45,7 @@
 </g>
 <g class="line" style="animation-delay: 0.18s">
   <text x="22" y="109" class="key">Host:</text>
-  <text x="100" y="109" class="val">Realme & ThinkPad Workspace</text>
+  <text x="100" y="109" class="val">Realme &amp; ThinkPad Workspace</text>
 </g>
 <g class="line" style="animation-delay: 0.24s">
   <text x="22" y="128" class="key">Kernel:</text>
@@ -61,7 +61,7 @@
 </g>
 <g class="line" style="animation-delay: 0.42s">
   <text x="22" y="185" class="key">Role:</text>
-  <text x="100" y="185" class="val">Frontend Dev & Automation Enthusiast</text>
+  <text x="100" y="185" class="val">Frontend Dev &amp; Automation Enthusiast</text>
 </g>
 <g class="line" style="animation-delay: 0.48s">
   <text x="22" y="204" class="key">Stack:</text>
@@ -73,11 +73,11 @@
 </g>
 <g class="line" style="animation-delay: 0.60s">
   <text x="22" y="242" class="key">Focus:</text>
-  <text x="100" y="242" class="val">Clean Minimalist UI & System Craft</text>
+  <text x="100" y="242" class="val">Clean Minimalist UI &amp; System Craft</text>
 </g>
 <g class="line" style="animation-delay: 0.66s">
   <text x="22" y="261" class="key">Status:</text>
-  <text x="100" y="261" class="val">Building & shipping side projects</text>
+  <text x="100" y="261" class="val">Building &amp; shipping side projects</text>
 </g>
 <g class="line" style="animation-delay: 0.72s">
   <rect x="22" y="286" width="12" height="12" rx="2" fill="#484f58" />
