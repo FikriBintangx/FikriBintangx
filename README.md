@@ -8,7 +8,7 @@
 <h3><code>fikri@github ~ $ whoami</code></h3>
 <table>
   <tr>
-    <td valign="top"><img src="ascii-art.svg" width="370" alt="Fikri Bintang ASCII Portrait" /></td>
+    <td valign="top"><img src="ascii-portrait.svg" width="370" alt="Fikri Bintang ASCII Portrait" /></td>
     <td valign="top"><img src="info-card.svg" width="490" alt="Fikri Info Card" /></td>
   </tr>
 </table>
