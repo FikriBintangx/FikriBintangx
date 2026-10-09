@@ -5,7 +5,7 @@ from PIL import Image
 
 RAMP = " .`:-=+*cs#%@"
 
-def image_to_ascii(image_path, width=70):
+def image_to_ascii(image_path, width=100):
     if not os.path.exists(image_path):
         # Create a simple default placeholder if image doesn't exist yet
         img = Image.new("L", (100, 100), color=255)

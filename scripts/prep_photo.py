@@ -43,6 +43,24 @@ def prep_photo(input_path, output_path):
     clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
     enhanced = clahe.apply(gray)
     
+    # Auto-crop tightly around the subject to maximize ASCII size
+    mask = enhanced < 245
+    y_indices, x_indices = np.where(mask)
+    if len(y_indices) > 0 and len(x_indices) > 0:
+        ymin, ymax = y_indices.min(), y_indices.max()
+        xmin, xmax = x_indices.min(), x_indices.max()
+        
+        # Add 3% margin
+        pad_x = int((xmax - xmin) * 0.03)
+        pad_y = int((ymax - ymin) * 0.03)
+        
+        ymin = max(0, ymin - pad_y)
+        ymax = min(h, ymax + pad_y)
+        xmin = max(0, xmin - pad_x)
+        xmax = min(w, xmax + pad_x)
+        
+        enhanced = enhanced[ymin:ymax, xmin:xmax]
+    
     cv2.imwrite(output_path, enhanced)
     print(f"Saved prepped photo to {output_path}")
 
