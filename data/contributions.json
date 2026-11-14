@@ -1,8 +1,8 @@
 {
   "username": "FikriBintangx",
-  "total": 663,
-  "current_streak": 39,
-  "longest_streak": 39,
+  "total": 666,
+  "current_streak": 40,
+  "longest_streak": 40,
   "best_day": {
     "date": "2026-01-08",
     "count": 40
@@ -1855,6 +1855,11 @@
     },
     {
       "date": "2026-11-13",
+      "count": 3,
+      "level": 1
+    },
+    {
+      "date": "2026-11-14",
       "count": 2,
       "level": 1
     }
