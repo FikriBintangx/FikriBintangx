@@ -19,8 +19,8 @@
 
 <p><b>Frontend Dev · Automation Enthusiast · CS Undergrad</b></p>
 
-[![Play Pixel Adventure](https://img.shields.io/badge/🕹️_Play_Pixel_Adventure-Click_Here-2ea043?style=for-the-badge&logo=google-play&logoColor=white)](https://fikribintangx.github.io/FikriBintangx/)
-[![Instagram](https://img.shields.io/badge/Instagram-isagi-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fikri_Bintang-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![Website Portfolio](https://img.shields.io/badge/🌐_Portfolio_Website-fikribintang.web.id-2ea043?style=for-the-badge&logo=google-chrome&logoColor=white)](https://fikribintang.web.id/)
+[![Instagram](https://img.shields.io/badge/Instagram-biru.css-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/biru.css/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fikri_Bintang_Purnomo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fikribintangpurnomo)
 
 </div>
