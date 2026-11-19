@@ -3,12 +3,12 @@
      Spacing is baked into the SVGs, so keep this block free of blank lines and keep the cards in
      a row on one line with no spaces between them. -->
 <div align="center">
-<a href="https://fikribintang.web.id"><img src="./cards/hero.svg" width="100%" alt="Fikri Bintang. Mobile & Web UI/UX Engineer at Wahanaartha. Crafting kinetic interfaces & fluid systems." /></a><br>
+<a href="https://fikribintang.web.id"><img src="./cards/hero.svg" width="100%" alt="Fikri Bintang. Mobile & Web UI/UX Engineer · Fullstack Developer. Crafting kinetic interfaces & fluid systems." /></a><br>
 <img src="./cards/heatmap.svg" width="100%" alt="Fikri's contribution graph, in blue, refreshed daily" /><br>
 <img src="./cards/activity.svg" width="100%" alt="Contributions in the last 12 months, by month, with streak and busiest day" /><br>
 <a href="https://fikribintang.web.id/#works"><img src="./cards/build.svg" width="33.333%" alt="ENGINEER: 6+ apps" /></a><a href="https://fikribintang.web.id"><img src="./cards/brand.svg" width="33.333%" alt="DESIGN: 10+ systems" /></a><a href="https://github.com/FikriBintangx"><img src="./cards/learn.svg" width="33.333%" alt="RESEARCH: 100% hardened" /></a><br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/title-coding-dark.svg" /><img src="./cards/title-coding-light.svg" width="100%" alt="What I'm coding" /></picture><br>
-<a href="https://github.com/FikriBintangx/wahanamobile"><img src="./cards/repo-wahanamobile.svg" width="33.333%" alt="wahanamobile" /></a><a href="https://github.com/FikriBintangx/strikecraft-tactical-fps"><img src="./cards/repo-strikecraft-tactical-fps.svg" width="33.333%" alt="strikecraft-tactical-fps" /></a><a href="https://github.com/FikriBintangx/token-launch-radar"><img src="./cards/repo-token-launch-radar.svg" width="33.333%" alt="token-launch-radar" /></a>
+<a href="https://github.com/FikriBintangx/github-core-clone"><img src="./cards/repo-github-core-clone.svg" width="33.333%" alt="github-core-clone" /></a><a href="https://github.com/FikriBintangx/strikecraft-tactical-fps"><img src="./cards/repo-strikecraft-tactical-fps.svg" width="33.333%" alt="strikecraft-tactical-fps" /></a><a href="https://github.com/FikriBintangx/token-launch-radar"><img src="./cards/repo-token-launch-radar.svg" width="33.333%" alt="token-launch-radar" /></a>
 </div>
 
 <p align="center">

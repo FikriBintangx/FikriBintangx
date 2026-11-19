@@ -157,7 +157,6 @@ def hero():
         src = open(portrait_file, "r", encoding="utf-8", errors="ignore").read()
         rows = re.findall(r'<text[^>]*\by="([\d.]+)"[^>]*>(.*?)</text>', src, re.S)
         for i, (y, txt) in enumerate(rows):
-            # Print rows top to bottom like a terminal
             portrait.append(
                 f'<text class="f" style="animation-delay:{0.25 + i * 0.015:.3f}s;animation-duration:.35s" '
                 f'xml:space="preserve" x="10" y="{y}" fill="{INK}" font-size="7.8" '
@@ -182,7 +181,7 @@ def hero():
 <text class="r" {d(0.15)} x="44" y="190" font-family="{SERIF}" font-size="116" letter-spacing="-2.5" fill="{INK}">Fikri</text>
 <text class="r" {d(0.3)} x="44" y="290" font-family="{SERIF}" font-style="italic" font-size="116" letter-spacing="-2.5" fill="url(#shine)">Bintang</text>
 <g class="r" {d(0.55)}>
-  {text_lines(48, 338, ["Mobile & Web UI/UX Engineer at Wahanaartha.", "Crafting kinetic interfaces & fluid systems."], 27, f'font-family="{SANS}" font-size="18" fill="{INK_SOFT}"')}
+  {text_lines(48, 338, ["Mobile & Web UI/UX Engineer · Fullstack Developer.", "Crafting kinetic interfaces & fluid systems."], 27, f'font-family="{SANS}" font-size="18" fill="{INK_SOFT}"')}
 </g>
 <g class="f" {d(0.8)}>
   <text x="48" y="396" font-family="{MONO}" font-size="13" fill="{INK}">fikribintang.web.id</text>
@@ -193,7 +192,7 @@ def hero():
 </g>
 """
     write("hero.svg", svg(W, h, body, ["serif", "serif-i", "sans", "mono"],
-                          "Fikri Bintang. Mobile & Web UI/UX Engineer at Wahanaartha. Crafting kinetic interfaces & fluid systems."))
+                          "Fikri Bintang. Mobile & Web UI/UX Engineer · Fullstack Developer. Crafting kinetic interfaces & fluid systems."))
 
 
 # ---- 2 · world tiles ----------------------------------------------------------
@@ -257,7 +256,6 @@ def activity(data):
     h = 340
     days = data.get("days", [])
     
-    # Calculate monthly totals if not already structured in data
     if "monthly" in data and data["monthly"]:
         monthly = data["monthly"][-12:]
     else:
@@ -294,7 +292,6 @@ def activity(data):
                 f'text-anchor="middle" font-family="{MONO}" font-size="11" fill="{TECH}">{m["total"]:,}</text>'
             )
 
-    # Streak & stats calculation
     cs_raw = data.get("current_streak", 0)
     cs = cs_raw.get("length", 0) if isinstance(cs_raw, dict) else int(cs_raw)
     ls_raw = data.get("longest_streak", 0)
@@ -335,7 +332,7 @@ def activity(data):
 # ---- 4 · repo cards -----------------------------------------------------------
 REPO_W, REPO_H = 880 / 3 - 8, 176
 REPOS = [
-    ("wahanamobile", "Enterprise mobile app built with Flutter, clean architecture, and real-time backend sync.", "Dart", TECH),
+    ("github-core-clone", "Standalone GitHub-compatible git forge serving Smart HTTP and REST API.", "TypeScript", TECH),
     ("strikecraft-tactical-fps", "YUKISTRIKE: Tactical 3D FPS across Shinto shrines with talisman firearms & spirit katana.", "JavaScript", STUDIO),
     ("token-launch-radar", "Real-time Solana token launch radar, liquidity analyzer and live telemetry scanner.", "TypeScript", LEARN),
 ]
@@ -444,10 +441,10 @@ if __name__ == "__main__":
     
     # 2. Three Worlds Tiles
     tile("build", "ENGINEER", TECH, "#ffffff", "6+", "apps",
-         "Production Flutter & web apps across Wahanaartha, Bengkel Bintang, HRM & tools.", 3.1, 0)
+         "Production mobile & web applications, kinetic UI systems, and full-stack tools.", 3.1, 0)
     tile("brand", "DESIGN", STUDIO, "#ffffff", "10+", "systems",
          "ArtCraft kinetic navigation, fluid motion systems, design tokens & Figma craftsmanship.", 3.35, 1)
-    tile("learn", "RESEARCH", LEARN, INK, "100%", "hardened",
+    tile("learn", "RESEARCH", RESEARCH_COLOR if 'RESEARCH_COLOR' in dir() else LEARN, INK, "100%", "hardened",
          "Offensive tooling, DARKCODE engine, API automation, and CS research.", 3.6, 2)
     
     # Aliases for convenience
