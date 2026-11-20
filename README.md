@@ -3,7 +3,7 @@
      Spacing is baked into the SVGs, so keep this block free of blank lines and keep the cards in
      a row on one line with no spaces between them. -->
 <div align="center">
-<a href="https://fikribintang.web.id"><img src="./cards/hero.svg" width="100%" alt="Fikri Bintang. Mobile & Web UI/UX Engineer · Fullstack Developer. Crafting kinetic interfaces & fluid systems." /></a><br>
+<a href="https://fikribintang.web.id"><img src="./cards/hero.svg" width="100%" alt="Fikri Bintang. Backend Developer · Systems & Infrastructure. Building high-throughput APIs & hardened architectures." /></a><br>
 <img src="./cards/heatmap.svg" width="100%" alt="Fikri's contribution graph, in blue, refreshed daily" /><br>
 <img src="./cards/activity.svg" width="100%" alt="Contributions in the last 12 months, by month, with streak and busiest day" /><br>
 <a href="https://fikribintang.web.id/#works"><img src="./cards/build.svg" width="33.333%" alt="ENGINEER: 6+ apps" /></a><a href="https://fikribintang.web.id"><img src="./cards/brand.svg" width="33.333%" alt="DESIGN: 10+ systems" /></a><a href="https://github.com/FikriBintangx"><img src="./cards/learn.svg" width="33.333%" alt="RESEARCH: 100% hardened" /></a><br>

@@ -176,12 +176,12 @@ def hero():
 <rect width="{W}" height="{h}" rx="14" fill="{PAPER}"/>
 <g class="f" {d(0)}>
   <rect class="live" x="48" y="49" width="8" height="8" rx="2" fill="{TECH}"/>
-  <text x="66" y="57" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{MUTED}">MOBILE &amp; WEB UI/UX ENGINEER · JAKARTA</text>
+  <text x="66" y="57" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{MUTED}">BACKEND DEVELOPER · JAKARTA</text>
 </g>
 <text class="r" {d(0.15)} x="44" y="190" font-family="{SERIF}" font-size="116" letter-spacing="-2.5" fill="{INK}">Fikri</text>
 <text class="r" {d(0.3)} x="44" y="290" font-family="{SERIF}" font-style="italic" font-size="116" letter-spacing="-2.5" fill="url(#shine)">Bintang</text>
 <g class="r" {d(0.55)}>
-  {text_lines(48, 338, ["Mobile & Web UI/UX Engineer · Fullstack Developer.", "Crafting kinetic interfaces & fluid systems."], 27, f'font-family="{SANS}" font-size="18" fill="{INK_SOFT}"')}
+  {text_lines(48, 338, ["Backend Developer · Systems & Infrastructure.", "Building high-throughput APIs & hardened architectures."], 27, f'font-family="{SANS}" font-size="18" fill="{INK_SOFT}"')}
 </g>
 <g class="f" {d(0.8)}>
   <text x="48" y="396" font-family="{MONO}" font-size="13" fill="{INK}">fikribintang.web.id</text>
@@ -192,7 +192,7 @@ def hero():
 </g>
 """
     write("hero.svg", svg(W, h, body, ["serif", "serif-i", "sans", "mono"],
-                          "Fikri Bintang. Mobile & Web UI/UX Engineer · Fullstack Developer. Crafting kinetic interfaces & fluid systems."))
+                          "Fikri Bintang. Backend Developer · Systems & Infrastructure. Building high-throughput APIs & hardened architectures."))
 
 
 # ---- 2 · world tiles ----------------------------------------------------------
